@@ -2,6 +2,8 @@
 
 A modern, production-ready starter template built with Next.js 16, HeroUI, and Tailwind CSS v4. This starter provides a solid foundation for building beautiful, accessible web applications with TypeScript support.
 
+[Live demo](https://heroui-next-starter.vercel.app)
+
 [![GitHub](https://img.shields.io/github/license/kurkanduk/heroui-next-starter)](https://github.com/kurkanduk/heroui-next-starter)
 [![GitHub stars](https://img.shields.io/github/stars/kurkanduk/heroui-next-starter)](https://github.com/kurkanduk/heroui-next-starter)
 
