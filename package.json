@@ -1,26 +1,55 @@
 {
   "name": "heroui-next-starter",
   "version": "0.1.0",
+  "description": "A modern, production-ready starter template built with Next.js 16, HeroUI, and Tailwind CSS v4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurkanduk/heroui-next-starter.git"
+  },
+  "homepage": "https://github.com/kurkanduk/heroui-next-starter#readme",
+  "bugs": {
+    "url": "https://github.com/kurkanduk/heroui-next-starter/issues"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check .",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@heroui/react": "^2.8.7",
+    "@heroui/theme": "^2.4.25",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.26",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.1.2",
+    "@vitest/ui": "^4.0.16",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "jsdom": "^27.4.0",
+    "prettier": "^3.7.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.16"
   }
 }
